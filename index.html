@@ -9,30 +9,30 @@
 <body>
   <div class="form-container">
     <h1>Todays menu</h1>
+
     <form>
-
-
-      <input type="checkbox" id="dish1" name="dish1"> <label for="dish1">chicken nuggets</label>
-
-<input type="checkbox" id="dish2" name="dish2"> <label for="dish2">cheese burger</label>
-
-<input type="checkbox" id="dish3" name="dish3"> <label for="dish3">salade</label>
-
-
-hj
-
-
+      <input type="checkbox" id="dish1" name="dish1" value="chicken nuggets"> <label for="dish1">chicken nuggets</label>
+      <input type="checkbox" id="dish2" name="dish2" value="cheese burger"> <label for="dish2">cheese burger</label>
+      <input type="checkbox" id="dish3" name="dish3" value="salade"> <label for="dish3">salade</label>
+      <input type="checkbox" id="dish4" name="dish4" value="Pizza"> <label for="dish4">Pizza</label>
       <h4>Do you want fries with that?</h4>
       <input type="radio" name="fries" id="yesFries"> <label for ="yesFries">Fries</label>
       <input type="radio" name="fries" id="noFries"> <label for="noFries">No Fries</label>
-
       <textarea name="comments" id="comments" cols="30" rows="5" placeholder="allergies, special orders, your own thoughts here..."></textarea>
-
       <input type="submit" value="Send!" id="submitbtn">
-
-
     </form>
+
   </div>
+
+  <div id="userInterface">
+    <h1>Todays menu</h1>
+    <div id="menu">
+      <h2>Pizza</h2>
+      <h2>Drink</h2>
+    </div>
+  </div>
+
+  <ul id="list"></ul>
   <script src="main.js"></script>
 </body>
 </html>
