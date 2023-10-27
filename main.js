@@ -9,6 +9,10 @@ const form = document.querySelector("form");
 submitbtn.addEventListener("click",function(e){
   e.preventDefault()
   console.log("we have sendedede it")
+
+  // console.log(document.getElementById("yesFries").checked)
+  console.log(document.getElementById("dish1").checked)
+  console.log(document.getElementById("dish1").value)
 })
 
 console.log("heloo")
