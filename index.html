@@ -20,24 +20,28 @@
 
       <h4>The free drink of the day</h4>
       <div class="radio-container">
-        <input type="radio" name="drink" id="cola" value="Cola" > <label for ="cola">Cola</label>
+        <input type="radio" name="drink" id="cola" value="Cola" checked > <label for ="cola">Cola</label>
         <input type="radio" name="drink" id="beer" Value="Beer"> <label for="beer">Beer</label>
       </div>
 
       <div class="textarea-container">
         <textarea name="comments" id="comments" cols="30" rows="5" placeholder="allergies, special orders, your own thoughts here..."></textarea>
+
+        <input type="submit" name="Show on menu" id="submitbtn">
       </div>
   </div>
 
-  <div id="userInterface">
+  <!-- <div id="userInterface">
     <h1>Todays menu</h1>
     <div id="menu">
       <h2>Pizza</h2>
       <h2>Drink</h2>
     </div>
-  </div>
+  </div> -->
 
-  <ul id="list"></ul>
+  <ul id="list">
+    <li id="drink">Cola</li>
+  </ul>
   <script src="main.js"></script>
 </body>
 </html>
