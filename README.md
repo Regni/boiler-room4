@@ -1,1 +1,3 @@
 # boiler-room4
+Boiler Room 4 - Reflektion
+Detta var en blandad uppgift med bra och dåliga element. Det bra med uppgiften var att få erfarenhet att arbeta inom git branches och att det var ett mer kollektivt samarbete på Javascripten då det är fortfarande nytt och klurigt att hantera. Men tyvärr så återigen har det saknats någon form av designdokument som slöar ner processen. Majoriteten av tiden spenderades på hur sidan skulle se ut och vad sidan skulle göra så även klarheten i uppgiften skulle kunna bli bättre.
