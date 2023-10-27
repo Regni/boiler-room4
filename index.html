@@ -8,25 +8,25 @@
 </head>
 <body>
   <div class="form-container">
-    <h1>Todays menu</h1>
+    <h1>Today's menu</h1>
     <form>
 
+      <div class="checkbox-container">
+        <input type="checkbox" id="dish1" name="dish1"> <label for="dish1">chicken nuggets</label>
+        <input type="checkbox" id="dish2" name="dish2"> <label for="dish2">cheese burger</label>
+        <input type="checkbox" id="dish3" name="dish3"> <label for="dish3">salade</label>
+      </div>
 
-      <input type="checkbox" id="dish1" name="dish1"> <label for="dish1">chicken nuggets</label>
+      <h4>The free drink of the day</h4>
+      <div class="radio-container">
+        <input type="radio" name="drink" id="cola" value="Cola" > <label for ="cola">Cola</label>
+        <input type="radio" name="drink" id="beer" Value="Beer"> <label for="beer">Beer</label>
+      </div>
 
-<input type="checkbox" id="dish2" name="dish2"> <label for="dish2">cheese burger</label>
-
-<input type="checkbox" id="dish3" name="dish3"> <label for="dish3">salade</label>
-
-
-hj
-
-
-      <h4>Do you want fries with that?</h4>
-      <input type="radio" name="fries" id="yesFries"> <label for ="yesFries">Fries</label>
-      <input type="radio" name="fries" id="noFries"> <label for="noFries">No Fries</label>
-
-      <textarea name="comments" id="comments" cols="30" rows="5" placeholder="allergies, special orders, your own thoughts here..."></textarea>
+      <div class="textarea-container">
+        <textarea name="comments" id="comments" cols="30" rows="5" placeholder="allergies, special orders, your own thoughts here..."></textarea>
+      </div>
+      
 
       <input type="submit" value="Send!" id="submitbtn">
 
